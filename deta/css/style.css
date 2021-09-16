@@ -652,6 +652,18 @@ label {
         padding-left: 24px;
         padding-right: 24px
     }
+    .ChiThanh {
+        flex-wrap: wrap;
+    }
+    .features-image {
+        width: 100%;
+    }
+    .is-revealing {
+        width: 100%;
+    }
+    .features-box {
+        max-height: 200px;
+    }
 }
 
 .container {
@@ -1754,6 +1766,9 @@ label {
     }
     .is-revealing {
         width: 100%;
+    }
+    .features-box {
+        max-height: 200px;
     }
 }
 
