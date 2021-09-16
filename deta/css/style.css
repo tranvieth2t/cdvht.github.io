@@ -1604,6 +1604,7 @@ label {
     position: relative;
     margin-bottom: 112px;
     padding: 0 30px;
+    width: calc(100% / 2);
 }
 
 .features-illustration {
@@ -1692,7 +1693,7 @@ label {
         display: none
     }
     .feature {
-        text-align: left
+        text-align: left;
     }
     .feature-inner {
         display: flex;
@@ -1744,6 +1745,15 @@ label {
 @media (max-width: 639px) {
     .cta-cta .button {
         display: flex
+    }
+    .ChiThanh {
+        flex-wrap: wrap;
+    }
+    .features-image {
+        width: 100%;
+    }
+    .is-revealing {
+        width: 100%;
     }
 }
 
